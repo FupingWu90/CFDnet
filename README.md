@@ -21,3 +21,8 @@ As the back propagation for gradient descent can not be done directly by the pyt
 In the total loss, the loss term of CF distance, i.e., Dis_Lamda* CF_Dist, would be good if its initial value be magnitude of 1e2 via choosing suitable Dis_Lamda.
 
 We provided the Unet here as the backbone of the network, you can adjust this for any other network.
+
+
+#Citation
+
+If you found the repository useful, please cite our work as below:
