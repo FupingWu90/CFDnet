@@ -1,7 +1,7 @@
 # CFDnet
 domain adaptation with CF distance for medical image segmentation
 
-It is the code for the paper : 'CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation', submitted to Transaction on Medical Imaging.
+It is the code for the paper : 'CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation', submitted to Transaction on Medical Imaging. [paper][https://ieeexplore.ieee.org/document/9165963]
 
 # package requirement
 python 2.7
@@ -26,3 +26,25 @@ We provided the Unet here as the backbone of the network, you can adjust this fo
 #Citation
 
 If you found the repository useful, please cite our work as below:
+
+```
+F. Wu and X. Zhuang, "CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2020.3016144.
+```
+or
+```
+@ARTICLE{9165963,
+
+  author={F. {Wu} and X. {Zhuang}},
+
+  journal={IEEE Transactions on Medical Imaging}, 
+
+  title={CF Distance: A New Domain Discrepancy Metric and Application to Explicit Domain Adaptation for Cross-Modality Cardiac Image Segmentation}, 
+
+  year={2020},
+
+  volume={},
+
+  number={},
+
+  pages={1-1},}
+```
