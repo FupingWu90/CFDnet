@@ -22,7 +22,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import random
-
+import argparse
 
 
 def ADA_Train( Train_LoaderA,Train_LoaderB,encoder,decoderB,decoderBdown2,decoderBdown4,gate,DistanceNet,lr,kldlamda,predlamda,bcelamda,dislamda,epoch,optim, savedir):
