@@ -317,6 +317,7 @@ if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
     cudnn.benchmark = True
+    parser = argparse.ArgumentParser()
 
     parser.add_argument('--LR', type=float, default=0.01)
     parser.add_argument('--PredLamda', type=float, default=1e3)
