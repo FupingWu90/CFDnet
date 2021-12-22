@@ -12,6 +12,9 @@ Torch 1.1.0
 
 numpy 1.15.0
 
+## Dataset
+The preprocessed dataset is available in 'https://github.com/FupingWu90/CT_MR_2D_Dataset_DA' : [CT-MR-Dataset](https://github.com/FupingWu90/CT_MR_2D_Dataset_DA)
+
 # Usage
 The core code for CF distance computation is the class `Feature_Distribution_Distance_func' in python file `utils_for_transfer.py'. The mosy important parameter need to be tuned is `self.Tvalue', here we set it to be 1e2. 
 You can initialize it first, and then input any two corresponding features from two domains inot it to compute their distance of CF.
