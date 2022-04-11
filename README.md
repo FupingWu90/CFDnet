@@ -25,6 +25,8 @@ In the total loss, the loss term of CF distance, i.e., Dis_Lamda* CF_Dist, would
 
 We provided the Unet here as the backbone of the network, you can adjust this for any other network.
 
+# MS-CMR
+Please using the datset released in https://github.com/FupingWu90/VarDA/tree/main/Dataset . 
 
 #Citation
 
