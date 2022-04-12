@@ -29,7 +29,7 @@ We provided the Unet here as the backbone of the network, you can adjust this fo
 Please using the datset released in https://github.com/FupingWu90/VarDA/tree/main/Dataset . 
 The code for this dataset is in ./Code-for-MS-CMR/. (Note: Other code is for CT-MR).
 
-#Citation
+# Citation
 
 If you found the repository useful, please cite our work as below:
 
